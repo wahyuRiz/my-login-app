@@ -1,8 +1,8 @@
 <?php
 // Koneksi ke database
-$servername = "localhost";
-$username = "root";
-$password = "";
+$servername = "aws.connect.psdb.cloud";
+$username = "udcamw6qftcc9wusaq6l";
+$password = "pscale_pw_3aGRNJvXzHvHajjGG3jsHOBinUWeEHrdGbeiBL7O1mT";
 $dbname = "smartdoor";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
