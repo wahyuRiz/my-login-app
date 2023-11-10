@@ -1,9 +1,9 @@
 <?php
 // Koneksi ke database
-$servername = "aws.connect.psdb.cloud";
-$username = "udcamw6qftcc9wusaq6l";
-$password = "pscale_pw_3aGRNJvXzHvHajjGG3jsHOBinUWeEHrdGbeiBL7O1mT";
-$dbname = "smartdoor";
+$servername = "http://103.16.198.23:2082/cpsess5923677080/3rdparty/phpMyAdmin/index.php";
+$username = "smrtlock";
+$password = "Nothing1029";
+$dbname = "smrtlock_user";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
